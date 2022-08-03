@@ -1,0 +1,18 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 10vw;
+}
+.nav-links{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.link{
+    margin: 0 10px;
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}

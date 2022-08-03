@@ -1,0 +1,14 @@
+.home-page{
+    margin: auto;
+    padding: 0 20px;
+}
+.homepage-recent-articles{
+    display: flex;
+    flex-direction: center;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+h2{
+    margin-left: 50px;
+}

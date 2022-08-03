@@ -1,0 +1,14 @@
+.articles-page{
+    margin: auto;
+    padding: 0 20px;
+}
+.articles-wrapper{
+    display: flex;
+    flex-direction: center;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+h2{
+    margin-left: 50px;
+}
