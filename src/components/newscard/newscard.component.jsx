@@ -9,7 +9,7 @@ import Collapse from '@mui/material/Collapse';
 import IconButton from '@mui/material/IconButton';
 import Typography from '@mui/material/Typography';
 import FavoriteIcon from '@mui/icons-material/Favorite';
-import ShareIcon from '@mui/icons-material/Share';
+import { Button } from '@mui/material';
 import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
 import './newscard.styles.css'
 
@@ -35,12 +35,12 @@ export default function NewsCard({data}) {
     <Card className="news-card" >
       <CardHeader
         title={data.title}
-        subheader={data.published_at}
+        subheader={data.publishedAt}
       />
       <CardMedia
         component="img"
         
-        image={data.image}
+        image={data.urlToImage}
         alt=""
       />
       <CardContent>
@@ -49,12 +49,9 @@ export default function NewsCard({data}) {
         </Typography>
       </CardContent>
       <CardActions disableSpacing>
-        <IconButton aria-label="add to favorites">
-          <FavoriteIcon />
-        </IconButton>
-        <IconButton aria-label="share">
-          <ShareIcon />
-        </IconButton>
+        <Button variant="contained" href={data.url}>
+          Read More...
+        </Button>
         <ExpandMore
           expand={expanded}
           onClick={handleExpandClick}

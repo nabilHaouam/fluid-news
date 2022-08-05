@@ -2,12 +2,13 @@
     margin: auto;
     padding: 0 20px;
 }
-.articles-wrapper{
+
+    
+.articles{
     display: flex;
-    flex-direction: center;
+    flex-wrap: wrap-reverse;
     align-items: center;
     justify-content: center;
-    flex-wrap: wrap;
 }
 h2{
     margin-left: 50px;
