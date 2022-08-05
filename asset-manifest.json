@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/fluid-news/static/css/main.df11e2d9.css",
+    "main.js": "/fluid-news/static/js/main.c6014043.js",
+    "static/media/icons8-twitter.svg": "/fluid-news/static/media/icons8-twitter.44d0ee4e5731d226b5a1cb02a0a2a26a.svg",
+    "static/media/logo.svg": "/fluid-news/static/media/logo.2096363f53eaf7b0dead506dfb9b97be.svg",
+    "static/media/icons8-instagram.svg": "/fluid-news/static/media/icons8-instagram.5377a69af6808c3caf41dab7872d0a8d.svg",
+    "index.html": "/fluid-news/index.html",
+    "main.df11e2d9.css.map": "/fluid-news/static/css/main.df11e2d9.css.map",
+    "main.c6014043.js.map": "/fluid-news/static/js/main.c6014043.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.df11e2d9.css",
+    "static/js/main.c6014043.js"
+  ]
+}
