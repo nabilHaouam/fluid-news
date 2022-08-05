@@ -12,7 +12,7 @@ const HomePage = ({articles}) => {
     <div className='home-page'>
       <h2>Recent Articles :</h2>
       <div className="homepage-recent-articles">
-        <RecentArticles data={articles? articles.articles :''}/>
+        <RecentArticles data={articles? articles.results :''}/>
       </div>
      
       

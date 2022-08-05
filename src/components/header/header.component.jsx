@@ -6,10 +6,10 @@ import './header.styles.css'
 const Header = () => {
   return (
     <div className='header'>
-       <Link to='/'><ReactLogo/></Link>
+       <Link to='/fluid-news'><ReactLogo/></Link>
        <div className="nav-links">
-            <Link to='/'><h3 className='link'>Home</h3></Link>
-            <Link to='/news'><h3 className='link'>News</h3></Link>       
+            <Link to='/fluid-news'><h3 className='link'>Home</h3></Link>
+            <Link to='/fluid-news/news'><h3 className='link'>News</h3></Link>       
        </div>
     </div>
   )

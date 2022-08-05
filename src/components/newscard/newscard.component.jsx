@@ -35,21 +35,21 @@ export default function NewsCard({data}) {
     <Card className="news-card" >
       <CardHeader
         title={data.title}
-        subheader={data.publishedAt}
+        subheader={data.pubDate}
       />
       <CardMedia
         component="img"
         
-        image={data.urlToImage}
+        image={data.image_url}
         alt=""
       />
       <CardContent>
         <Typography variant="body2" color="text.secondary">
-          {data.autor}
+          {data.creator}
         </Typography>
       </CardContent>
       <CardActions disableSpacing>
-        <Button variant="contained" href={data.url}>
+        <Button variant="contained" href={data.link}>
           Read More...
         </Button>
         <ExpandMore

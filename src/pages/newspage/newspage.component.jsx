@@ -8,7 +8,7 @@ const NewsPage = ({articles}) => {
     <div className='articles-page'>
         <h2>All Articles :</h2> 
         <div className='articles'>
-        {articles? articles.articles.map((article ,index)=><NewsCard data={article} key={index}/>) : null}
+        {articles? articles.results.map((article ,index)=><NewsCard data={article} key={index}/>) : null}
         </div>
     </div>
   )
